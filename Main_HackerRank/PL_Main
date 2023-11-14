@@ -1,0 +1,18 @@
+# Ejemplo de modulacion de carpetas para crear paquetes
+print("Running 3.11")
+# from PCK_module import HR_Functions
+import PCK_module
+# Bloque de codigo funcional pero para hacerlo correr implemente estrategias 
+# de la version 2.7 aunque mi consola me indica que esta corriendo en la version 3.11.5
+# PCK_module.HR_Functions.string_analizer("abcfdthsjabc132672ussjsinsnabc")
+
+multiplica = lambda i:i*2 
+lista= [ multiplica(x) for x in range(1,6)]  
+print(lista)
+
+# Tener listo para probar
+def suma(a=1,b=0):
+    return a+b
+print(suma(1,1))
+set_a={"n","a","b","c","n"}
+print(set_a)
