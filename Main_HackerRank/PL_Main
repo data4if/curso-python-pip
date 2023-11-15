@@ -1,11 +1,11 @@
 # Ejemplo de modulacion de carpetas para crear paquetes
 print("Running 3.11")
 # from PCK_module import HR_Functions
-import PCK_module
+from PCK_module import HR_Functions as mm
 # Bloque de codigo funcional pero para hacerlo correr implemente estrategias 
 # de la version 2.7 aunque mi consola me indica que esta corriendo en la version 3.11.5
 # PCK_module.HR_Functions.string_analizer("abcfdthsjabc132672ussjsinsnabc")
-
+print(mm.string_analizer('abcd'))
 multiplica = lambda i:i*2 
 lista= [ multiplica(x) for x in range(1,6)]  
 print(lista)

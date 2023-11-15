@@ -1,2 +1,2 @@
-name="CARLOS JAVIER LOPEZ OJEDA"
-import HR_Functions
+name_path="CARLOS JAVIER LOPEZ OJEDA"
+print(name_path)
