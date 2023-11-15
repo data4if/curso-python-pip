@@ -1,4 +1,4 @@
-## STEP
+# STEP
 
 Para correr este programa se deben seguir las siguientes instruccion
 
